@@ -18,7 +18,7 @@ description: Σ βοτ 是個簡單的管理類機器人，好用且可靠
 
 
 
-了解了這些之後，廢話不多說，可以開始使用機器人了，不過在這之前，請確保你已經閱畢了 [Broken link](broken-reference "mention")的所有內容，接著就可以開始使用囉!
+了解了這些之後，廢話不多說，可以開始使用機器人了，不過在這之前，請確保你已經閱畢了 [Broken link](broken-reference "mention") 的所有內容，接著就可以開始使用囉!
 
 
 
