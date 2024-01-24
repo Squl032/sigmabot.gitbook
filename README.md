@@ -16,9 +16,11 @@ description: Σ βοτ 是個簡單的管理類機器人，好用且可靠
 
 Σ βοτ 是一個近乎完全免費使用的機器人，所有指令皆為斜線指令，而前面說的幾乎免費保留的那一部份，是由於有部分功能需使用付費的API，以至於不開放給所有人使用，不然遲早有一天功能會無法使用
 
+如果正閱讀到此處的你想要用金錢支持我，那可以到我的 [Patreon](https://www.patreon.com/teamsigma/membership) 成為我 [Discord](https://discord.gg/dnvKBk6V4y) 群組內的 Supporter，未來有測試功能也會優先給 β program 的用戶測試
 
 
-了解了這些之後，廢話不多說，可以開始使用機器人了，不過在這之前，請確保你已經閱畢了 [Broken link](broken-reference "mention") 的所有內容，接著就可以開始使用囉!
+
+了解了這些之後，廢話不再多說，已經可以開始使用機器人了，請確保你已經閱畢了 [Broken link](broken-reference "mention") 的所有內容，接著就可以開始使用囉!
 
 
 
