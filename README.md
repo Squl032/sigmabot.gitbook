@@ -24,4 +24,8 @@ description: Σ βοτ 是個簡單的管理類機器人，好用且可靠
 
 
 
+## [點此邀請機器人](https://discord.com/oauth2/authorize?client\_id=991997852538634311\&scope=identify%20guilds%20applications.commands%20guilds.join%20bot\&permissions=283766156543\&redirect\_uri=https%3A%2F%2Fdiscord.gg%2FdnvKBk6V4y)
+
+為機器人投票: [DiscordTW](https://discordservers.tw/bots/991997852538634311) 、 [Top.gg](https://top.gg/bot/991997852538634311)
+
 _<mark style="color:yellow;">**⚠ 此網頁目前仍在建設中**</mark>_
