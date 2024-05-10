@@ -1,6 +1,8 @@
 # Table of contents
 
 * [Σ βοτ 介紹](README.md)
+  * [支援伺服器](https://discord.gg/dnvKBk6V4y)
+  * [邀請機器人](https://discord.com/oauth2/authorize?client\_id=991997852538634311\&scope=identify%20guilds%20applications.commands%20guilds.join%20bot\&permissions=283766156543\&redirect\_uri=https%3A%2F%2Fdiscord.gg%2FdnvKBk6V4y)
 
 ## Policy & Terms
 
