@@ -1,24 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sigma Bot Terms of Service</title>
+    <title>Sigma Bot 文檔 - 全功能 Discord 社群管理機器人</title>
+    <meta name="description" content="Sigma Bot 完整文檔 - 88+指令、AI聊天、扭蛋系統、抽獎功能等全面功能介紹">
+    <meta name="keywords" content="Discord機器人, 社群管理, AI聊天, 扭蛋系統, 音樂機器人">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/themes.css">
+    <link rel="stylesheet" href="assets/css/markdown.css">
 </head>
 <body>
-    <h1>Sigma Bot Terms of Service</h1>
-    
-    <h6>Last Updated: 6/11/2023</h6>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+            <p>載入中...</p>
+        </div>
+    </div>
 
-    <h4>Proper Usage</h4>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <img src="assets/images/logo.svg" alt="Sigma Bot" class="logo">
+                <span class="brand-text">Sigma Bot</span>
+                <span class="version-badge">v2.0.0</span>
+            </div>
+            
+            <div class="nav-search">
+                <div class="search-container">
+                    <i class="fas fa-search search-icon"></i>
+                    <input type="text" id="search-input" placeholder="搜尋文檔..." autocomplete="off">
+                    <div id="search-results" class="search-results"></div>
+                </div>
+            </div>
+            
+            <div class="nav-actions">
+                <button id="theme-toggle" class="theme-toggle" title="切換深色模式">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <a href="https://discord.gg/dnvKBk6V4y" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-discord"></i>
+                    支援伺服器
+                </a>
+                <a href="https://discord.com/oauth2/authorize?client_id=991997852538634311&scope=identify%20guilds%20applications.commands%20guilds.join%20bot&permissions=283766156543&redirect_uri=https%3A%2F%2Fdiscord.gg%2FdnvKBk6V4y" class="btn btn-success" target="_blank">
+                    <i class="fas fa-plus"></i>
+                    邀請機器人
+                </a>
+            </div>
+        </div>
+    </nav>
 
-    <h5>Sigma bot 的所有指令請依常理使用適當，指令為方便用途，並不支持及贊同非法用途。</h5>
+    <!-- Main Container -->
+    <div class="main-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h3><i class="fas fa-book"></i> 文檔導航</h3>
+                <button id="sidebar-toggle" class="sidebar-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+            
+            <div class="sidebar-content">
+                <!-- Navigation Tree -->
+                <nav class="nav-tree" id="navigation-tree">
+                    <!-- 動態生成導航 -->
+                </nav>
+            </div>
+            
+            <div class="sidebar-footer">
+                <div class="quick-links">
+                    <a href="#quick-start" class="quick-link">
+                        <i class="fas fa-rocket"></i>
+                        快速開始
+                    </a>
+                    <a href="#troubleshooting" class="quick-link">
+                        <i class="fas fa-question-circle"></i>
+                        故障排除
+                    </a>
+                </div>
+            </div>
+        </aside>
 
-    <h2>請勿違反 [Discord's ToS](https://discord.com/terms)</h2>
-    <h2>Do not against [Discord's ToS](https://discord.com/terms)</h2>
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Breadcrumb -->
+            <nav class="breadcrumb" id="breadcrumb">
+                <!-- 動態生成麵包屑 -->
+            </nav>
+            
+            <!-- Content Area -->
+            <div class="content-area">
+                <article id="main-article" class="article">
+                    <!-- 動態載入文章內容 -->
+                </article>
+                
+                <!-- Page Navigation -->
+                <nav class="page-nav" id="page-navigation">
+                    <!-- 動態生成頁面導航 -->
+                </nav>
+            </div>
+            
+            <!-- Table of Contents -->
+            <aside class="toc" id="table-of-contents">
+                <div class="toc-header">
+                    <h4><i class="fas fa-list"></i> 目錄</h4>
+                </div>
+                <nav class="toc-nav" id="toc-nav">
+                    <!-- 動態生成目錄 -->
+                </nav>
+            </aside>
+        </main>
+    </div>
 
-    <link rel="stylesheet" href="https://discord.com/terms">
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>Sigma Bot</h4>
+                <p>全功能 Discord 社群管理機器人</p>
+                <div class="social-links">
+                    <a href="https://discord.gg/dnvKBk6V4y" target="_blank">
+                        <i class="fab fa-discord"></i>
+                    </a>
+                    <a href="https://github.com/Squl032" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>快速連結</h4>
+                <ul>
+                    <li><a href="#overview">功能總覽</a></li>
+                    <li><a href="#quick-start">快速開始</a></li>
+                    <li><a href="#commands">指令大全</a></li>
+                    <li><a href="#troubleshooting">故障排除</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>支援</h4>
+                <ul>
+                    <li><a href="https://discord.gg/dnvKBk6V4y" target="_blank">支援伺服器</a></li>
+                    <li><a href="#troubleshooting/faq">常見問題</a></li>
+                    <li><a href="#policy-and-terms/terms">服務條款</a></li>
+                    <li><a href="#policy-and-terms/policy">隱私政策</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>統計資訊</h4>
+                <div class="stats">
+                    <div class="stat">
+                        <span class="stat-number">88+</span>
+                        <span class="stat-label">指令</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">30+</span>
+                        <span class="stat-label">自動化功能</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">11</span>
+                        <span class="stat-label">功能類別</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 Sigma Bot. 版權所有. 最後更新：2025年7月30日</p>
+        </div>
+    </footer>
 
-    <h6>[Support server](https://discord.gg/dnvKBk6V4y)</h6>
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" title="回到頂部">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <script src="assets/js/markdown-parser.js"></script>
+    <script src="assets/js/navigation.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/themes.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 </html>
