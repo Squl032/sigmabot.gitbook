@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://sigmabot.gitbook.io/sitemap.xml
+Sitemap: https://squl032.github.io/sigmabot.gitbook/sitemap.xml
 
 # Specific crawling preferences
 Crawl-delay: 1
